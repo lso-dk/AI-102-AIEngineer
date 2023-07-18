@@ -1,1 +1,1 @@
-curl -X POST "https://cog1-cloudtest-weu.cognitiveservices.azure.com//text/analytics/v3.1/languages?" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: 4f752ebc07c44de4b99ffc0ba79189b2" --data-ascii "{'documents':[{'id':1,'text':'hello'}]}"
+curl -X POST "https://myendpoint//text/analytics/v3.1/languages?" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: mykey" --data-ascii "{'documents':[{'id':1,'text':'hello'}]}"
